@@ -15,17 +15,17 @@
                     <div class=\"card h-100\">
                         <div class=\"card-body\">
                             <h5 class=\"card-title\" style=\"font: bold;\">".++$count.". ".ucfirst(strtolower($row['ATMname']))." ATM</h5>
-                            <p class=\"card-text\">ATM Branch: ".$row['Branch']."
+                            <p class=\"card-text\">ATM Branch:&nbsp;&nbsp; ".$row['Branch']."
                             <br>
-                            TerminalID: ".$row['TerminalID']."
+                            TerminalID:&nbsp;&nbsp; ".$row['TerminalID']."
                             <br>
-                            Address: ".$row['Address']."
+                            Address:&nbsp;&nbsp; ".$row['Address'].",
                             <br>
-                            ".$row['District']."
+                            ".$row['District'].",
                             <br>
-                            ".$row['State']."
+                            ".$row['State'].",
                             <br>
-                            Contact Num: ".$row['ContactNum']."
+                            Contact Num:&nbsp;&nbsp; ".$row['ContactNum']."
                             </p>
                         </div>
                     </div>

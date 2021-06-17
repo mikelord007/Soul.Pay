@@ -15,11 +15,11 @@
                         <div class=\"card h-100\" style=\"\">
                             <div class=\"card-body\">
                                 <h5 class=\"card-title\">".++$count.". ".ucfirst(strtolower($row['Branch']))." Branch</h5>
-                                <p class=\"card-text\">Branch Incharge: ".$row['BranchIncharge']."
+                                <p class=\"card-text\">Branch Incharge:&nbsp;&nbsp; ".$row['BranchIncharge']."
                                 <br>
-                                IFSCode: ".$row['IFSCcode']."
+                                IFSCode:&nbsp;&nbsp; ".$row['IFSCcode']."
                                 <br>
-                                Contact Num: ".$row['ContactNum']."
+                                Contact Num:&nbsp;&nbsp; ".$row['ContactNum']."
                                 </p>
                             </div>
                         </div>

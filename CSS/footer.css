@@ -172,6 +172,37 @@
     text-align: center;
   }
     
+  .socialLinks{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    color: #f71f1f;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+  }
+
+  .links{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+
+  .links a{
+    color: #233c55;
+    text-decoration: none;
+  }
+
+  .links a:hover{
+    text-decoration: none;
+    color: #1b1f23;
+    
+  }
+  .link i{
+    color: #1b1f23;
+  }
   @media screen and (min-width: 1280px) {
 
   .container-default-1310px {

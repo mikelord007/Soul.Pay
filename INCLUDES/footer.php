@@ -86,5 +86,13 @@
             
         </div>
     </div>
-                    
+    <div class="socialLinks">
+        <p>Designed and Coded with Soul By:</p>
+        <div class="links">
+            <div class="link"><i class="fab fa-github"></i><a href="https://github.com/poojarrr" class="link1">@poojarrr</a></div>
+            <div class="link"><i class="fab fa-github"></i><a href="https://github.com/i-aiymen/mini_project_s4" class="link2">@i-aiymen</a></div>
+            <div class="link"><i class="fab fa-github"></i><a href="https://github.com/mikelord007/Soul.Pay" class="link3">@mikelord007</a></div>
+            <div class="link"><i class="fab fa-github"></i><a href="#" class="link4">@adithya</a></div>
+        </div>
+    </div>
 </footer>

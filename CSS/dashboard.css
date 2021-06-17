@@ -843,11 +843,7 @@ cursor: pointer;
   background-color: #d30019;
 }
 
-.card{
-  height: 60%;
-  width: 25%;
-  
-}
+
 
 .card-types{
   display: flex;

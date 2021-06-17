@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
 <div class="header w-nav">
         <div class="container-default-1310px navbar" style="padding-left:0px;">
             <div class="split-left-container">

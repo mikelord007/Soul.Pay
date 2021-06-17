@@ -1,0 +1,5 @@
+[15-Jun-2021 04:02:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in C:\Apps\Xampp\htdocs\projects\BankingNew\INCLUDES\dbconfig.inc.php:7
+Stack trace:
+#0 C:\Apps\Xampp\htdocs\projects\BankingNew\INCLUDES\login.inc.php(6): require_once()
+#1 {main}
+  thrown in C:\Apps\Xampp\htdocs\projects\BankingNew\INCLUDES\dbconfig.inc.php on line 7

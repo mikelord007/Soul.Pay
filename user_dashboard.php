@@ -63,7 +63,7 @@ if (class_exists('DATABASE_CONNECT'))
         $accountno = $row['user_accountno'];
         $ifsc      = $row['user_ifsc'];
 
-        $sql2 = "select user_balance,user_accounttype from accounts where user_email = '$email'";
+        $sql2 = "select user_balance, user_accounttype from accounts where user_email = '$email'";
         $result2 = $conn->query($sql2);
         $row2 = $result2->fetch_assoc();
 
@@ -167,9 +167,7 @@ if (class_exists('DATABASE_CONNECT'))
                 <div class="right-side right1">
                     
                     <div class="box-topic">Your Balance</div>
-                    <div class="number">
-                      <?php if(!empty($row2['user_balance'])) {echo $row2['user_balance'];}?>
-                    </div>
+                    <div class="number"><?php echo $row2['user_balance']?></div>
 
                 </div>
                 <i class='bx bx-rupee rupee'></i>

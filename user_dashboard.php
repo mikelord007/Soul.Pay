@@ -85,7 +85,7 @@ if (class_exists('DATABASE_CONNECT'))
             <nav class="nav">
                 <div>
                     <a href="user_dashboard.php" class="nav__logo">
-                        <img src="Assets/images/PureSoul.svg" alt="" class="nav__logo-icon">
+                        <img src="Assets/Images/PureSoul.svg" alt="" class="nav__logo-icon">
                         <span class="nav__logo-text">Soul.pay</span>
                     </a>
 

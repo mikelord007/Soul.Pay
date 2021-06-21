@@ -123,7 +123,7 @@ if(!isset($_SESSION["user_email"]))
             <nav class="nav">
                 <div>
                 <a href="user_dashboard.php" class="nav__logo">
-                        <img src="Assets/images/PureSoul.svg" width="100%" height="100px" alt="" class="nav__logo-icon">
+                        <img src="Assets/Images/PureSoul.svg" width="100%" height="100px" alt="" class="nav__logo-icon">
                         <span class="nav__logo-text">Soul.pay</span>
                     </a>
 

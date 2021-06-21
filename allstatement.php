@@ -79,7 +79,7 @@ if(!isset($_SESSION["user_email"]))
         <div class="p-5">
             <section class="top-content bb d-flex justify-content-between">
                 <div class="logo">
-                    <img src="Assets/images/photo3.svg" alt="" class="img-fluid">
+                    <img src="Assets/Images/photo3.svg" alt="" class="img-fluid">
                 </div>
                 <div class="top-left">
                     <div class="graphic-path">

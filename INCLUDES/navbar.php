@@ -18,7 +18,7 @@
                     <a href="contactus.php" aria-current="page" class="nav-link w-nav-link w--current">
                         Contact Us
                     </a>
-                    <a href="findAtmBranches.php" aria-current="page" class="nav-link w-nav-link w--current">
+                    <a href="../findAtmBranches.php" aria-current="page" class="nav-link w-nav-link w--current">
                         Branches & Atms
                     </a>
                     <div class="nav-menu-button-wrapper">

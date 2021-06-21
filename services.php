@@ -54,10 +54,10 @@
                  <!--END OF SECTION2-->
     <div class="sec3">
         <div class="x">
-        <img src="Assets/images/servicespageimg.jpeg" class="img-fluid" alt="image of a person in bank">
+        <img src="Assets/Images/servicespageimg.jpeg" class="img-fluid" alt="image of a person in bank">
         </div>
         <div class="y">
-            <div class="title"><img src="Assets/images/faq.jpg" alt="faq-image" class="imgg"></div>
+            <div class="title"><img src="Assets/Images/faq.jpg" alt="faq-image" class="imgg"></div>
 
           <div class="accordian">
               <div class="accordian-item" id="ques1">

@@ -139,7 +139,7 @@
     <script type="text/javascript">
         function showDistricts(state, name) {
             const ajaxreq = new XMLHttpRequest();
-            ajaxreq.open('GET', "http://localhost/BankingNew/includes/sendDistricts.php?selectvalue=" + state +"&type="+name, 'true');
+            ajaxreq.open('GET', "http://localhost/BankingNew/INCLUDES/sendDistricts.php?selectvalue=" + state +"&type="+name, 'true');
             ajaxreq.send();
             ajaxreq.onreadystatechange = function () {
                 if (ajaxreq.readyState == 4 && ajaxreq.status == 200) {

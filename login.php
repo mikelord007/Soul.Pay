@@ -16,7 +16,7 @@
 
 <body>
     <?php
-    include("includes/navbar.php");
+    include("INCLUDES/navbar.php");
     ?>
 
     <div class="section">
@@ -53,7 +53,7 @@
                 }
             }
             ?>
-                <form action="includes/login.inc.php" method="POST">
+                <form action="INCLUDES/login.inc.php" method="POST">
                     <div class="container">
                         <div class="row my-4 mx-3">
                             <div class="col-md">
@@ -79,7 +79,7 @@
     </div>
 
     <?php
-    include("includes/footer.php");
+    include("INCLUDES/footer.php");
     ?>
 </body>
 </html>

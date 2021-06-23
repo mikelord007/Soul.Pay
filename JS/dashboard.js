@@ -26,7 +26,7 @@ window.onload=function(){
 
     elem.addEventListener("click", e=>{
       const ajaxreq = new XMLHttpRequest();
-      ajaxreq.open('GET', "http://soul-pay.herokuapp.com/INCLUDES/"+value);
+      ajaxreq.open('GET', "https://soul-pay.herokuapp.com/INCLUDES/"+value);
       ajaxreq.send();
       ajaxreq.onreadystatechange = function () {
         if (ajaxreq.readyState == 4 && ajaxreq.status == 200) {

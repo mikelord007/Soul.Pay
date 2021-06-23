@@ -24,7 +24,7 @@
 
 <body>
     <?php
-    include("includes/navbar.php");
+    include("INCLUDES/navbar.php");
     ?>
 
     <div class="section">
@@ -40,7 +40,7 @@
                 <button id="nav-btn4" class="carousel_indicator"></button>
             </div>
             <div class="verify-carousel">
-                <form action="includes/verification.inc.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+                <form action="INCLUDES/verification.inc.php" method="POST" enctype="multipart/form-data" autocomplete="off">
                     <div class="carousel-container">
                         <ul class="carousel-track">
                             <li class="carousel-slide current-slide">
@@ -231,7 +231,7 @@
     </div>
 
     <?php
-    include("includes/footer.php");
+    include("INCLUDES/footer.php");
     ?>
 </body>
 <script src="js/verification.js"></script>

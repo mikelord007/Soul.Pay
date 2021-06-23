@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="css/verification.css">
+    <link rel="stylesheet" href="CSS/verification.css">
     <script src="https://kit.fontawesome.com/62d06b97ac.js" crossorigin="anonymous"></script>
 </head>
 
@@ -234,6 +234,6 @@
     include("INCLUDES/footer.php");
     ?>
 </body>
-<script src="js/verification.js"></script>
+<script src="JS/verification.js"></script>
 
 </html>

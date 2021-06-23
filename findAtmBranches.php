@@ -148,7 +148,6 @@
 
                     else
                         document.getElementById("District2").innerHTML = ajaxreq.responseText;
-
                 }
             };
         }

@@ -23,7 +23,7 @@
                  <p>We believe that people deserve to know the truest depths of us and we commit to you with our soul.</p><br><br><br><br>
                  <a href="#" id="login" class="button-secondary v w-button">Login</a>
                  <a href="#" id="sign" class="button-secondary v w-button">Open account</a></div>
-            <div class="image"><img src="Assets/images/next.jpg" style="width: 950px"/></div>
+            <div class="image"><img src="Assets/Images/next.jpg" style="width: 950px"/></div>
  </div>
 
       <section class="sec3">

@@ -844,6 +844,7 @@ cursor: pointer;
 }
 
 
+
 .card-types{
   display: flex;
   flex-flow: row;
@@ -873,9 +874,6 @@ cursor: pointer;
 } 
 .fa-cc-paypal{
   color: #00a232;
-}
-#debitAppln{
-  margin-top: 2rem;
 }
 
 /* Chrome, Safari, Edge, Opera */

@@ -1,8 +1,9 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
 <div class="header w-nav">
         <div class="container-default-1310px navbar" style="padding-left:0px;">
             <div class="split-left-container">
                 <a href="index.php" aria-current="page" class="brand w-nav-brand w--current">
-                    <img src="Assets/images/photo3.svg" alt="" height=150 max-width=100% class="header-logo"/>
+                    <img src="Assets/Images/photo3.svg" alt="" height=150 max-width=100% class="header-logo"/>
                 </a>
                 <nav id="menuList" role="navigation" class="nav-menu w-nav-menu">        
                     <a href="index.php" aria-current="page" class="nav-link w-nav-link w--current">

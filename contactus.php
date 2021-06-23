@@ -25,36 +25,36 @@
     <div style="opacity: 1;" class="sufix-line"></div>
      <h2 style="opacity: 1;" class="head">Get in touch with us<span class="span-primary-color">.</span></h2><p style="opacity: 1;" class="left-paragraph">Want to get in touch? We'd love to hear from you.<br>Here's how you can reach us...</p><br>
      <div class="contact-us-wrapper">
-        <div style="opacity: 1;" class="contact-wrapper"><div class="contact-us-subtitle-wrapper"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5ea7809af2769e57aa63a66f_icon-contact-us-01-banca-template.svg" alt="" class="contact-us-icon"><div class="contact-us-subtitle">Office</div></div><p>1550 Bryant Street STE 750, San Francisco, CA 94103</p></div><div style="opacity: 1;" class="contact-wrapper"><div class="contact-us-subtitle-wrapper"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5ea7809a6f8dd21f3b5fd77d_icon-contact-us-02-banca-template.svg" alt="" class="contact-us-icon"><div class="contact-us-subtitle">Contact</div></div><a href="mailto:support@banca.com" class="contact-us-link">support@soul.pay.com</a><a href="mailto:info@soul.pay.com" class="contact-us-link">info@soul.pay.com</a></div><div  style="opacity: 1;" class="contact-wrapper"><div class="contact-us-subtitle-wrapper"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5ea7809a3d52efaf6a491924_icon-contact-us-03-banca-template.svg" alt="" class="contact-us-icon"><div class="contact-us-subtitle">Open Hours</div></div><p class="open-hours-paragraph">Monday - Saturday: 9am - 7pm</p><p class="open-hours-paragraph">Sunday: 12am — 6pm</p></div></div>
+        <div style="opacity: 1;" class="contact-wrapper"><div class="contact-us-subtitle-wrapper"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5ea7809af2769e57aa63a66f_icon-contact-us-01-banca-template.svg" alt="" class="contact-us-icon"><div class="contact-us-subtitle">Office</div></div><p>Soul Towers, TVM, Street 750, Kerala, 456765</p></div><div style="opacity: 1;" class="contact-wrapper"><div class="contact-us-subtitle-wrapper"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5ea7809a6f8dd21f3b5fd77d_icon-contact-us-02-banca-template.svg" alt="" class="contact-us-icon"><div class="contact-us-subtitle">Contact</div></div><a href="mailto:support@banca.com" class="contact-us-link">soul.payy@gmail.com</a><a href="mailto:info@soul.pay.com" class="contact-us-link">info@soul.pay.com</a></div><div  style="opacity: 1;" class="contact-wrapper"><div class="contact-us-subtitle-wrapper"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5ea7809a3d52efaf6a491924_icon-contact-us-03-banca-template.svg" alt="" class="contact-us-icon"><div class="contact-us-subtitle">Open Hours</div></div><p class="open-hours-paragraph">Monday - Saturday: 9am - 7pm</p><p class="open-hours-paragraph">Sunday: 12am — 6pm</p></div></div>
 
 </div>
 <div class="b">
     <div class="x">
     <div style="opacity: 1; transform-style: preserve-3d;" class="contact-us-form">
         <div class="success-message-content w-form">
-            <form action="" method="POST" id="email-form" name="email-form" data-name="Email Form" class="form-v2">
+            <form action="" method="post" class="form-v2">
                 <div class="contact-us-form-grid">
                     <div class="form-input-wrapper">
                         <label for="Name" class="field-label">Name</label>
-                        <input type="text" class="input w-input"name="Name"placeholder="What's your name?" id="Name" required="">
+                        <input type="text" class="input w-input" name="Name"placeholder="What's your name?" id="Name" required>
                     </div>
                     <div class="form-input-wrapper">
                         <label for="Phone" class="field-label">Phone</label>
-                        <input type="tel" class="input w-input"name="Phone" placeholder="(123) 480 - 3540" id="Phone">
+                        <input type="tel" class="input w-input" name="Phone" placeholder="+91 xxxxxxxxxx" id="Phone">
                     </div>
                     <div class="form-input-wrapper">
                         <label for="Email" class="field-label">Email</label>
-                        <input type="email" class="input w-input" name="Email" placeholder="What's your email?" id="Email" required="">
+                        <input type="email" class="input w-input" name="Email" placeholder="What's your email?" id="Email" required>
                     </div>
                     <div class="form-input-wrapper">
                         <label for="Related-To" class="field-label">Service interested in</label>
-                        <input type="text" class="input w-input" maxlength="256" name="Services" data-name="Services" placeholder="Ex. Auto Loan,recharge" id="Services" required="">
+                        <input type="text" class="input w-input" name="Services" placeholder="Ex. Auto Loan,recharge" id="Services" required>
                     </div>
                 </div>
                 <label for="Message" class="field-label">Message</label>
-                <textarea placeholder="I would like to get in touch with you..." maxlength="5000" id="Message" name="Message" data-name="Message" class="text-area w-input"></textarea>
+                <textarea placeholder="I would like to get in touch with you..."id="Message" name="Message"class="text-area w-input"></textarea>
                 
-                <input type="submit" name="contact" value="Send Message" data-wait="Please wait..." class="button">
+                <input type="submit" name="contact" value="Send Message" class="button">
             </form>
         
         <div class="success-message-content w-form-done"><img src="https://assets.website-files.com/5ea6ed9e484d220156b1c38d/5eab1fb459d0129081511bc1_icon-steps-02-banca-template.svg" alt=""><div class="success-message-text">Thank you! Your submission has been received!</div></div><div class="error-message-content w-form-fail"><div class="error-message-text">Oops! Something went wrong while submitting the form.</div></div></div></div>
@@ -64,7 +64,9 @@
     </div>
     </div>
     <?php 
-            include 'contact_get.php';
+            require_once ('contact_get.php');
+            ?>
+            <?php
             include 'INCLUDES/footer.php';?>
 </body>
 </html>

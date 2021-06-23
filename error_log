@@ -1,0 +1,6 @@
+[15-Jun-2021 03:59:31 America/Chicago] PHP Warning:  session_start(): open(/tmp\sess_brtrquc1bpvil2ptf31dcce51o, O_RDWR) failed: No such file or directory (2) in C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php on line 2
+[15-Jun-2021 03:59:31 America/Chicago] PHP Warning:  session_start(): Failed to read session data: files (path: /tmp) in C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php on line 2
+[15-Jun-2021 03:59:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php:2) in C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php on line 5
+[15-Jun-2021 04:01:07 America/Chicago] PHP Warning:  session_start(): open(/tmp\sess_brtrquc1bpvil2ptf31dcce51o, O_RDWR) failed: No such file or directory (2) in C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php on line 2
+[15-Jun-2021 04:01:07 America/Chicago] PHP Warning:  session_start(): Failed to read session data: files (path: /tmp) in C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php on line 2
+[15-Jun-2021 04:01:07 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php:2) in C:\Apps\Xampp\htdocs\projects\BankingNew\verification.php on line 5

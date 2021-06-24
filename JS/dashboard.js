@@ -42,7 +42,7 @@ function submit(){
   var inputs = document.getElementById("debitAppln").elements;
   var cardtype= document.getElementsByClassName("selected").value;
   var ajaxreq = new XMLHttpRequest();
-  ajaxreq.open("POST", "http://soul-pay.herokuapp.com/INCLUDES/debitAppln.php?house="+inputs['house'].value+"&street="+inputs['street'].value+"&district="+inputs['district'].value+"&state="+inputs['state'].value+"&pincode="+inputs['pincode'].value+"&cardtype="+inputs['cardtype'].value, true);
+  ajaxreq.open("POST", "https://soul-pay.herokuapp.com/INCLUDES/debitAppln.php?house="+inputs['house'].value+"&street="+inputs['street'].value+"&district="+inputs['district'].value+"&state="+inputs['state'].value+"&pincode="+inputs['pincode'].value+"&cardtype="+inputs['cardtype'].value, true);
   ajaxreq.send();
       ajaxreq.onreadystatechange = function () {
         if (ajaxreq.readyState == 4 && ajaxreq.status == 200) {

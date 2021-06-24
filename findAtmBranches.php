@@ -141,7 +141,7 @@
     <script type="text/javascript">
         function showDistricts(state, name) {
             const ajaxreq = new XMLHttpRequest();
-            ajaxreq.open('GET', "http://localhost/BankingNew/INCLUDES/sendDistricts.php?selectvalue=" + state +"&type="+name, 'true');
+            ajaxreq.open('GET', "https://soul-pay.herokuapp.com/INCLUDES/sendDistricts.php?selectvalue=" + state +"&type="+name, 'true');
             ajaxreq.send();
             ajaxreq.onreadystatechange = function () {
                 if (ajaxreq.readyState == 4 && ajaxreq.status == 200) {
@@ -159,7 +159,7 @@
             const ajaxreq = new XMLHttpRequest();
             district = document.getElementById("District").value;
             // document.getElementById("displaybranchesnAtms").innerHTML = district;
-            ajaxreq.open('GET', "http://localhost/BankingNew/INCLUDES/displayBranches.php?district=" + district, 'true');
+            ajaxreq.open('GET', "https://soul-pay.herokuapp.com/INCLUDES/displayBranches.php?district=" + district, 'true');
             ajaxreq.send();
             ajaxreq.onreadystatechange = function () {
                 if (ajaxreq.readyState == 4 && ajaxreq.status == 200) {
@@ -172,7 +172,7 @@
             event.preventDefault();
             const ajaxreq = new XMLHttpRequest();
             district = document.getElementById("District2").value;
-            ajaxreq.open('GET', "http://localhost/BankingNew/INCLUDES/displayAtms.php?district=" + district, 'true');
+            ajaxreq.open('GET', "https://soul-pay.herokuapp.com/INCLUDES/displayAtms.php?district=" + district, 'true');
             ajaxreq.send();
             ajaxreq.onreadystatechange = function () {
                 if (ajaxreq.readyState == 4 && ajaxreq.status == 200) {

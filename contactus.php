@@ -10,11 +10,12 @@
     <!-- FONT FAMILY-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&display=swap" rel="stylesheet">
-    <title>Contact Us--Soul.pay</title>
+    <title>Contact Us|Soul.pay</title>
     <link rel="stylesheet" href="CSS/contactus.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" />
 </head>
 <body>
 

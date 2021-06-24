@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/credit.css">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
-    <title>Document</title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" />
+    <title>Soul.Pay</title>
 </head>
 <body>
     <div class="page-wrapper">

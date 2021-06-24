@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/atmbranch.css">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" />
+    <title>Find Atms & Branches|Soul.Pay</title>
 </head>
 
 <body>

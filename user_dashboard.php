@@ -19,8 +19,8 @@ if(!isset($_SESSION["user_id"])){
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <title>Document</title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" />
+    <title>Dashboard|Soul.Pay</title>
 
 </head>
 <body>

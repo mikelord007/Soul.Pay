@@ -20,7 +20,7 @@ Comprehensive list of features:
 
 The website is now live on heroku and you can [check it out here.](https://soul-pay.herokuapp.com/index.php)
 
-The app doesn't have any dependancies but you will have to configure:
+The app doesn't have any dependencies but you will have to configure:
     <ol>
     <li>database according to your system in `DBCONFIG/dbconfig.php` and `INCLUDES/dbconfig.inc.php`.</li>
     <li>all ajax.open() GET link href inside `findAtmBranches.php`. ( change http:<span></span>//localhost/projects/Banking/... to http:<span></span>//localhost/Banking/... ) </li>
